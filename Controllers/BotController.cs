@@ -19,7 +19,7 @@ namespace API.Controllers
             /*
             var simlBot = new SimlBot();
             var botUser = new BotUser(simlBot, "pamodzou");
-            var packageString = File.ReadAllText(@"C:\Users\Pamodzou Ndiaye\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\anglais.simlpk");
+            var packageString = File.ReadAllText(@"bin\anglais.simlpk");
             simlBot.PackageManager.LoadFromString(packageString);
              */
             

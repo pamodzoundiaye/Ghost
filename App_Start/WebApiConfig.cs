@@ -13,7 +13,7 @@ namespace API
     {
         public static SimlBot simlBot = new SimlBot();
         public static BotUser botUser = new BotUser(simlBot, "pamodzou");
-        public static string packageString = File.ReadAllText(@"C:\Users\Pamodzou Ndiaye\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\anglais.simlpk");
+        public static string packageString = File.ReadAllText(@"bin\anglais.simlpk");
 
         public static void Register(HttpConfiguration config)
         {
